@@ -1,41 +1,35 @@
-package com.free.algorithms.fundamentals.unionfind;
-
-import java.util.Scanner;
+package com.free.algorithms.fundamentals.search.unionfind;
 
 /**
  * @author weimin02
- * @date 2018/8/8
+ * @date 2018/9/8
  * @project algorithms
  */
-public class UF {
+public class RankQuickUnion {
     private int[] parent;
-    /**
-     * rank[i] = rank of subtree rooted at i (never more than 31)
-     */
-    private byte[] rank;
+    private int[] rank;
     private int count;
 
-    public UF(int n) {
-        if (n < 0) {
-            throw new IllegalArgumentException();
-        }
+    public RankQuickUnion(int n) {
         this.count = n;
-
         parent = new int[n];
-        rank = new byte[n];
+        rank = new int[n];
         for (int i = 0; i < n; i++) {
             parent[i] = i;
             rank[i] = 0;
         }
     }
 
+    public int count() {
+        return count;
+    }
+
     public int find(int p) {
         validate(p);
         while (p != parent[p]) {
-            // path compression by halving
-            parent[p] = parent[parent[p]];
             p = parent[p];
         }
+
         return p;
     }
 
@@ -46,10 +40,6 @@ public class UF {
         }
     }
 
-    public int count() {
-        return count;
-    }
-
     public boolean connected(int p, int q) {
         return find(p) == find(q);
     }
@@ -57,6 +47,7 @@ public class UF {
     public void union(int p, int q) {
         int rootP = find(p);
         int rootQ = find(q);
+
         if (rootP == rootQ) {
             return;
         }
@@ -72,24 +63,5 @@ public class UF {
 
         count--;
     }
-
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        UF uf = new UF(n);
-        while (in.hasNext()) {
-            int p = in.nextInt();
-            int q = in.nextInt();
-            if (uf.connected(p, q)) {
-                continue;
-            }
-
-            uf.union(p, q);
-            System.out.println(p + " " + q);
-        }
-
-        System.out.println(uf.count() + " components");
-    }
-
 
 }

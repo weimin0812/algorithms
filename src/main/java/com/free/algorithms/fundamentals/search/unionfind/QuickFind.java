@@ -1,19 +1,28 @@
-package com.free.algorithms.fundamentals.unionfind;
+package com.free.algorithms.fundamentals.search.unionfind;
 
-import java.util.Scanner;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * @author weimin02
- * @date 2018/8/8
+ * @date 2018/9/8
  * @project algorithms
  */
-public class QuickFindUF {
+public class QuickFind {
+    /**
+     * id[i] = component identifier of i
+     */
     private int[] id;
+
+    /**
+     * number of components
+     */
     private int count;
 
-    public QuickFindUF(int n) {
+    public QuickFind(int n) {
         this.count = n;
         id = new int[n];
+
         for (int i = 0; i < n; i++) {
             id[i] = i;
         }
@@ -36,16 +45,12 @@ public class QuickFindUF {
     }
 
     public boolean connected(int p, int q) {
-        validate(p);
-        validate(q);
-        return id[p] == id[q];
+        return find(p) == find(q);
     }
 
     public void union(int p, int q) {
-        validate(p);
-        validate(q);
-        int pId = id[p];
-        int qId = id[q];
+        int pId = find(p);
+        int qId = find(q);
 
         if (pId == qId) {
             return;
@@ -61,22 +66,19 @@ public class QuickFindUF {
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        QuickFindUF quickFindUF = new QuickFindUF(n);
+        int n = StdIn.readInt();
+        QuickFind quickFind = new QuickFind(n);
 
-        while (in.hasNext()) {
-            int p = in.nextInt();
-            int q = in.nextInt();
-            if (quickFindUF.connected(p, q)) {
+        while (!StdIn.isEmpty()) {
+            int p = StdIn.readInt();
+            int q = StdIn.readInt();
+            if (quickFind.connected(p, q)) {
                 continue;
             }
-
-            quickFindUF.union(p, q);
-            System.out.println(p + " " + q);
+            quickFind.union(p, q);
+            StdOut.println(p + " " + q);
         }
-
-        System.out.println(quickFindUF.count() + " components");
+        StdOut.println(quickFind.count() + " components");
     }
 
 

@@ -1,18 +1,19 @@
-package com.free.algorithms.fundamentals.unionfind;
+package com.free.algorithms.fundamentals.search.unionfind;
 
-import java.util.Scanner;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * @author weimin02
- * @date 2018/8/8
+ * @date 2018/9/8
  * @project algorithms
  */
-public class WeightedQuickUnionUF {
+public class WeightedQuickUnion {
     private int[] parent;
     private int[] size;
     private int count;
 
-    public WeightedQuickUnionUF(int n) {
+    public WeightedQuickUnion(int n) {
         this.count = n;
         parent = new int[n];
         size = new int[n];
@@ -28,9 +29,10 @@ public class WeightedQuickUnionUF {
 
     public int find(int p) {
         validate(p);
-        while (parent[p] != p) {
+        while (p != parent[p]) {
             p = parent[p];
         }
+
         return p;
     }
 
@@ -45,15 +47,14 @@ public class WeightedQuickUnionUF {
         return find(p) == find(q);
     }
 
-
     public void union(int p, int q) {
         int rootP = find(p);
         int rootQ = find(q);
+
         if (rootP == rootQ) {
             return;
         }
 
-        // make smaller root point to large one
         if (size[rootP] < size[rootQ]) {
             parent[rootP] = rootQ;
             size[rootQ] += size[rootP];
@@ -66,23 +67,17 @@ public class WeightedQuickUnionUF {
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        WeightedQuickUnionUF weightedQuickUnionUF = new WeightedQuickUnionUF(n);
-
-        while (in.hasNext()) {
-            int p = in.nextInt();
-            int q = in.nextInt();
-            if (weightedQuickUnionUF.connected(p, q)) {
+        int n = StdIn.readInt();
+        WeightedQuickUnion uf = new WeightedQuickUnion(n);
+        while (!StdIn.isEmpty()) {
+            int p = StdIn.readInt();
+            int q = StdIn.readInt();
+            if (uf.connected(p, q)) {
                 continue;
             }
-
-            weightedQuickUnionUF.union(p, q);
-            System.out.println(p + " " + q);
+            uf.union(p, q);
+            StdOut.println(p + " " + q);
         }
-
-        System.out.println(weightedQuickUnionUF.count() + " components");
+        StdOut.println(uf.count() + " components");
     }
-
-
 }
