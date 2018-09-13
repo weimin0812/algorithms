@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b42f9f70-0aed-43ea-b4af-c8db110ad1f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Percolation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PercolationStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/RankQuickUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/WeightedQuickUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/stack/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/stack/ResizingArrayStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickFindUF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickUnionUF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/UF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/WeightedQuickUnionUF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/free/algorithms/fundamentals/unionfind/QuickFindUF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/free/algorithms/fundamentals/unionfind/QuickUnionUF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/free/algorithms/fundamentals/unionfind/UF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/free/algorithms/fundamentals/unionfind/WeightedQuickUnionUF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickFind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/RankQuickUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/WeightedQuickUnion.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,84 +32,49 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuickFind.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickFind.java">
+    <leaf>
+      <file leaf-file-name="ResizingArrayStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/stack/ResizingArrayStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1513">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1717#1718#0" expanded="true" />
+                <element signature="e#2080#2081#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+                <element signature="e#3665#3666#0" expanded="true" />
+                <element signature="e#3729#3730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/stack/LinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
-              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#1923#1924#0" expanded="true" />
+                <element signature="e#3593#3594#0" expanded="true" />
+                <element signature="e#3658#3659#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickUnion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickUnion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightedQuickUnion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/WeightedQuickUnion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="67" selection-start-line="11" selection-start-column="3" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RankQuickUnion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/RankQuickUnion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Percolation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Percolation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="e#2850#2851#0" expanded="true" />
-                <element signature="e#2923#2924#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PercolationStats.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PercolationStats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StdStats.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Desktop/algs4.jar!/edu/princeton/cs/algs4/StdStats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4575">
-              <caret line="336" column="26" selection-start-line="336" selection-start-column="26" selection-end-line="336" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -152,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/RankQuickUnion.java" />
         <option value="$PROJECT_DIR$/src/main/java/Percolation.java" />
         <option value="$PROJECT_DIR$/src/main/java/PercolationStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/stack/ResizingArrayStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/stack/LinkedStack.java" />
       </list>
     </option>
   </component>
@@ -181,6 +139,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +176,25 @@
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="fundamentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -229,15 +208,40 @@
               <item name="algs4.jar" type="462c0819:PsiDirectoryNode" />
               <item name="algs4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="stack&#9;FILE&#9;file:///Users/weimin/algorithms/src/main/java/com/free/algorithms/fundamentals/stack" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -266,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PercolationStats">
+  <component name="RunManager" selected="Application.ResizingArrayStack">
     <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PercolationStats" />
       <module name="algorithms" />
@@ -284,13 +288,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="QuickUnionUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.free.algorithms.fundamentals.unionfind.QuickUnionUF" />
+    <configuration name="ResizingArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.free.algorithms.fundamentals.stack.ResizingArrayStack" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.free.algorithms.fundamentals.unionfind.*" />
+          <option name="PATTERN" value="com.free.algorithms.fundamentals.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,19 +363,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.QuickUnionUF" />
       <item itemvalue="Application.WeightedQuickUnionUF" />
       <item itemvalue="Application.UF" />
       <item itemvalue="Application.QuickFind" />
       <item itemvalue="Application.PercolationStats" />
+      <item itemvalue="Application.ResizingArrayStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResizingArrayStack" />
         <item itemvalue="Application.PercolationStats" />
         <item itemvalue="Application.QuickFind" />
         <item itemvalue="Application.UF" />
         <item itemvalue="Application.WeightedQuickUnionUF" />
-        <item itemvalue="Application.QuickUnionUF" />
       </list>
     </recent_temporary>
   </component>
@@ -392,17 +396,21 @@
       <workItem from="1536372479654" duration="7408000" />
       <workItem from="1536546097227" duration="400000" />
       <workItem from="1536550815110" duration="37000" />
+      <workItem from="1536583166218" duration="325000" />
+      <workItem from="1536675100817" duration="4420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18254000" />
+    <option name="totallyTimeSpent" value="22999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32793018" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -411,19 +419,18 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43765587" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42518702" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28428927" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info anchor="bottom" id="Problems" order="7" weight="0.32917705" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.12842892" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36159602" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32793018" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
@@ -445,7 +452,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickFind.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickFind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
@@ -457,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -467,7 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/WeightedQuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/WeightedQuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="67" selection-start-line="11" selection-start-column="3" selection-end-line="67" />
@@ -477,7 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/RankQuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/RankQuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
@@ -512,7 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickFind.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickFind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
@@ -524,7 +531,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/WeightedQuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="67" selection-start-line="11" selection-start-column="3" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/RankQuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Percolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#2850#2851#0" expanded="true" />
+            <element signature="e#2923#2924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/algs4.jar!/edu/princeton/cs/algs4/StdStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4575">
+          <caret line="336" column="26" selection-start-line="336" selection-start-column="26" selection-end-line="336" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PercolationStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
@@ -534,7 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/WeightedQuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/WeightedQuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="67" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="67" />
@@ -544,7 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/RankQuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/RankQuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
@@ -581,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/assignment/percolation/Percolation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/assignment/percolation/PercolationStats.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
@@ -592,7 +666,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/WeightedQuickUnionUF.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/UF.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickFindUF.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
@@ -608,7 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickFind.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickFind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
@@ -620,7 +694,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/QuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/QuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -651,7 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/WeightedQuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/WeightedQuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="67" selection-start-line="11" selection-start-column="3" selection-end-line="67" />
@@ -662,7 +736,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/search/unionfind/RankQuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/unionfind/RankQuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
@@ -689,10 +763,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PercolationStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="133">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/algs4.jar!/edu/princeton/cs/algs4/ResizingArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <element signature="e#43292#43293#0" expanded="true" />
+            <element signature="e#43324#43325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/stack/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#3593#3594#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/algorithms/fundamentals/stack/ResizingArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1513">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1717#1718#0" expanded="true" />
+            <element signature="e#2080#2081#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="e#3665#3666#0" expanded="true" />
+            <element signature="e#3729#3730#0" expanded="true" />
           </folding>
         </state>
       </provider>
